@@ -1,0 +1,39 @@
+/home/kuro/.rbenv/versions/2.2.2/bin/ruby -r ./siteconf20160816-14465-1cumll7.rb extconf.rb
+checking for main() in -lpthread... yes
+creating Makefile
+
+make "DESTDIR=" clean
+
+make "DESTDIR="
+compiling accessor.cc
+compiling function.cc
+compiling trycatch.cc
+compiling primitive.cc
+compiling external.cc
+compiling backref.cc
+compiling rr.cc
+compiling init.cc
+compiling v8.cc
+compiling script.cc
+compiling heap.cc
+compiling exception.cc
+compiling context.cc
+compiling template.cc
+compiling locker.cc
+compiling value.cc
+compiling signature.cc
+compiling date.cc
+compiling constants.cc
+compiling handles.cc
+compiling stack.cc
+compiling invocation.cc
+compiling gc.cc
+compiling array.cc
+compiling constraints.cc
+compiling string.cc
+compiling object.cc
+compiling message.cc
+linking shared-object v8/init.so
+
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 init.so ./.gem.20160816-14465-yc05cu/v8
